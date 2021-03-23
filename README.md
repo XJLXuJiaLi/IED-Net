@@ -7,7 +7,7 @@
 - CMake   2.8
 - CUDA 10.1 + cuDNN 7.6
 ### Build
-git clone https://github.com/XJLXuJiaLi/LED-Net.git 
+git clone https://github.com/XJLXuJiaLi/IED-Net.git 
 - cd IED-Net
 - mkdir build && cd build
 - cmake .. && make
