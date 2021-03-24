@@ -30,7 +30,7 @@ $ python train_cls.py
 ```bash
 $ python train_seg.py
 ```
-If you want to visualize and save the results during the training process, you can do so by modifying `save_freq_train` and `vis_path` in `cfgs/config_seg.yaml`
+If you want to visualize and save the results during the training and validationg process, you can do so by modifying `save_vis_freq` and `vis_path` in `cfgs/config_seg.yaml`
 
 ## Evaluation
 ### Shape Classification
@@ -42,7 +42,7 @@ $ python voting_evaluate_cls.py
 ```bash
 $ python voting_evaluate_partseg.py
 ```
-If you want to visualize and save the results during the validationg process, you can do so by modifying `save_freq_train` and `vis_path` in `cfgs/config_seg.yaml`
+If you want to visualize and save the results during the training and validationg process, you can do so by modifying `save_vis_freq` and `vis_path` in `cfgs/config_seg.yaml`
 
 
 
