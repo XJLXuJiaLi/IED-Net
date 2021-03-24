@@ -42,7 +42,7 @@ $ python voting_evaluate_cls.py
 ```bash
 $ python voting_evaluate_partseg.py
 ```
-If you want to visualize and save the results during the validationg process, you can do so by modifying `save_eva_freq` and `vis_eva_path` in `cfgs/config_seg.yaml`
+If you want to visualize and save the results during the validationg process, you can do so by modifying `save_valid_freq` and `vis_valid_path` in `cfgs/config_seg.yaml`
 
 
 
